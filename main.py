@@ -1,6 +1,6 @@
 from setup_directories import DefaultDirectoryManager
-from image_processing import DefaultImageProcessor
-from image_creation import DefaultImageCreator
+from image_process import DefaultImageProcessor
+from image_create import DefaultImageCreator
 
 class Main:
     def __init__(self, alt_directory=None, bands=[1, 2, 3], additional_bands=[], resize_images=False, apply_filter=False, enhance_image=False):
