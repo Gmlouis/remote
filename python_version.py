@@ -1,7 +1,8 @@
-from importlib.metadata import requires, version, PackageNotFoundError
+from importlib.metadata import requires, PackageNotFoundError
+import platform
 
 def min_python_version():
-    min_version = (0, 0)
+    min_version = tuple(map(int, platform.python_version_tuple()))
     try:
         dependencies = requires("remote")
     except PackageNotFoundError:
