@@ -1,7 +1,8 @@
 import numpy as np
 import cv2
+from feature_enhancement import GaussianBlurProcessor, EdgeEnhancementProcessor, ContrastStretchingProcessor
 
-class SIFTFeatureDetector(FeatureDetector):
+class SIFTFeatureDetector:
     def __init__(self):
         self.sift = cv2.xfeatures2d.SIFT_create()
         self.blur_processor = GaussianBlurProcessor()
