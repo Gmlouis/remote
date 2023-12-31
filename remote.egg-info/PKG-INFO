@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: remote
+Version: 0.1
+Summary: A package designed to facilitate the manipulation of remote sensing data in python
+Home-page: https://github.com/Gmlouis/remote
+Author: Louis-Vincent Grand'Maison
+Author-email: grandmaison.lv@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Windows :: Windows 10
+Classifier: Topic :: Scientific/Engineering :: Photogrammetry
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Remote Sensing
+Classifier: Topic :: Scientific/Engineering :: Hyperspectral Imagery
+Requires-Python: >=0.0
+Description-Content-Type: text/markdown
+
+# remote
